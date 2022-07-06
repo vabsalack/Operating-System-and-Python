@@ -4,6 +4,7 @@ import os
 """ csv_to_html.py file take two command line arguments, first the location/name of the csv file, second the location where
 the output.html file should be generated"""
 
+
 def process_csv(csv_file):
     """Turn the contents of the CSV file into a list of lists"""
     print("Processing {}".format(csv_file))
